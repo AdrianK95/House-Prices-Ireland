@@ -2,7 +2,6 @@
 """
 Created on Sun Dec  1 09:35:00 2019
 
-@author: brian
 """
 from math import sqrt
 import mysql.connector as mysql
