@@ -71,9 +71,9 @@ with open ('daftdata.csv','w') as file:
    file.close      
       
 mydb = mysql.connector.connect(host='localhost',
-    user='root',
-    passwd='TotoPanda1',
-    database='daftdatabase')
+    user='username',
+    passwd='password',
+    database='database')
 #prepare cursor
 cursor = mydb.cursor()
 
